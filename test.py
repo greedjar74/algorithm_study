@@ -1,14 +1,12 @@
-import random
+import heapq
 
-cnt_1 = 0
-cnt_2 = 0
+a = []
+b = []
+for i in range(10, -1, -1):
+    heapq.heappush(a, -i)
+    b.append(-i)
 
-for i in range(100):
-    r = random.randint(1, 2)
-    if r == 1:
-        cnt_1 += 1
-    else :
-        cnt_2 += 1
-
-print(cnt_1)
-print(cnt_2)
+print(a)
+print(b)
+for _ in range(10):
+    print(heapq.heappop(a))
