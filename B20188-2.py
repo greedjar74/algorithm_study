@@ -1,3 +1,4 @@
+# 47점
 import sys
 input = sys.stdin.readline
 
