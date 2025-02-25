@@ -1,1 +1,2 @@
-print((14**13)%21)
+import sys
+print(sys.maxsize)
