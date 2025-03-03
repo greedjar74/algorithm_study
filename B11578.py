@@ -1,7 +1,7 @@
 from itertools import combinations
 
 N, M = map(int, input().split())
-A = list(list(map(int, input().split()))[1:] for _ in range(N))
+A = list(list(map(int, input().split()))[1:] for _ in range(M))
 A = list(set(a) for a in A)
 
 re = -1
