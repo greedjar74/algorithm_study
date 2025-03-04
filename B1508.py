@@ -1,3 +1,5 @@
+# 안전거리를 이분탐색으로 설정하여 해당 거리를 기준으로 사람을 배치하면서 원하는 값이 나오는지 확인한다.
+
 import sys
 input = sys.stdin.readline
 
